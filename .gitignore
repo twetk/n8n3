@@ -1,18 +1,9 @@
-# 忽略環境變數
 .env
-
-# 忽略 node.js 安裝的模組
 node_modules/
-
-# 忽略暫存資料或編譯結果
 dist/
 build/
 *.log
-
-# Docker volume 資料（如不需版本控制）
 n8n_data/
 postgres_data/
-
-# 系統檔案
 .DS_Store
 Thumbs.db
